@@ -1,0 +1,9 @@
+{
+  "name": "Otacos dans l'espace",
+  "short_name": "Otacos dans l'espace",
+  "description": "Une jeune femme de 22 ans nommée Sandra est allée dans l'espace !",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#ff7200"
+}
