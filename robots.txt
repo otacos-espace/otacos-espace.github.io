@@ -1,5 +1,8 @@
 User-agent: *
 Disallow: style.css
 Disallow: scripts.js
+Disallow: manifest.json
+Disallow: favicon.ico
+Disallow: logo.png
 
 Sitemap: https://otacos-espace.github.io/sitemap.xml
