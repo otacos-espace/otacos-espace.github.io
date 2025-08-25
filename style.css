@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+a {
+  color: #ff7200 !important;
+}
+
+header {
+  background-color: #ff7200;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 3.6rem;
+}
+
+.autor {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.desc {
+  font-size: 1.5rem;
+}
+
+.images {
+  margin: 30px 0 0 50px;
+  display: flex;
+}
+
+.image>img,
+.images2>img,
+.images3>img {
+  width: 500px;
+  cursor: pointer;
+}
+
+.image>img:hover,
+.images2>img:hover,
+.images3>img:hover {
+  filter: brightness(0.6);
+}
+
+.images2>img {
+  width: 447px !important;
+  margin-left: 10px;
+}
+
+.images3>img {
+  margin: 10px 0 0 50px;
+  width: 956px;
+}
+
+.texts {
+  margin: 30px 0 50px 60px;
+}
+
+.txt1 {
+  font-size: 1.5rem;
+  max-width: 900px;
+  text-align: left;
+}
+
+.titletxt {
+  margin: 20px 0 20px 0;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  padding: 50px;
+  background-color: #1c1c1e;
+  justify-content: space-evenly;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.f1>img {
+  width: 80px;
+  filter: invert(1);
+}
+
+.f1>.top {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  max-width: 250px;
+  text-align: left;
+  color: white;
+}
+
+.f1>.btm {
+  color: white;
+  padding-top: 100px;
+}
+
+.f2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.titlef2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.f2>a {
+  font-size: 1.2rem;
+  margin: 2px;
+}
+
+a:hover {
+  color: #9b4600 !important;
+}
+
+.link,
+ul,
+li {
+  display: flex;
+}
+
+li>a {
+  color: black !important;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+li>a:hover {
+  color: black !important;
+}
+
+@media (max-width: 1020px) {
+
+  .images,
+  .images3>img,
+  .images3 {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    margin: 0 !important;
+  }
+
+  .images2>img {
+    margin-left: 0 !important;
+  }
+
+  .images3>img,
+  .images2>img,
+  .images1>.image>img {
+    width: 80vw !important;
+  }
+
+  .texts {
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt1 {
+    max-width: 80vw !important;
+  }
+  .title {
+    display: flex;
+    text-align: center;
+  }
+  .autor {
+    margin-bottom: 15px;
+  }
+}
