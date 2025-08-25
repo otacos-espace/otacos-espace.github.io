@@ -4,5 +4,9 @@ Disallow: scripts.js
 Disallow: manifest.json
 Disallow: favicon.ico
 Disallow: logo.png
+Disallow: sandrav2.png
+Disallow: img2.webp
+Disallow: img.webp
+Disallow: img.png
 
 Sitemap: https://otacos-espace.github.io/sitemap.xml
