@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: style.css
+Disallow: scripts.js
+
+Sitemap: https://otacos-espace.github.io/sitemap.xml
